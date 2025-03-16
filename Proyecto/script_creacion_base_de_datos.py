@@ -2,9 +2,9 @@ import mysql.connector
 
 def crear_base_datos():
     conexion = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Platino1213#"
+        host="",
+        user="",
+        password=""
     )
     cursor = conexion.cursor()
     
